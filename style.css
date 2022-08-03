@@ -1,0 +1,124 @@
+#avatar {
+  height: 200px;
+  border-radius: 100px;
+  margin: 0px;
+  border: #F7E1D7;
+}
+
+body {
+  background-color: #dedbd2;
+  font-family: "Roboto Mono", monospace;
+  color: #545555;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  line-height: 51px;
+  margin: 12px 0px 10px;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  line-height: 34px;
+  padding: 5px;
+}
+
+a {
+  font-family: inherit;
+  font-size: 15px;
+  margin: 5px;
+  background-color: #F7E1D7;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 13px;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: #F7E1D7;
+}
+
+.profile-header {
+  text-align: center;
+  background-color: #EFEDE9;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 15px 70px;
+}
+
+.profile-me {
+  text-align: center;
+  background-color: #F6F5F2;
+  border-radius: 10px;
+  padding: 25px 10px 55px;
+  margin: 15px 150px;
+}
+
+.bottom-discover {
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px 10px;
+  margin: 30px 150px;
+}
+
+.social-media {
+  text-align: center;
+  background-color: #F6F5F2;
+  border-radius: 10px;
+  padding: 1px 10px 10px;
+  margin: auto;
+  text-decoration: none;
+  width: 600px;
+}
+
+.social-media-logo {
+  color: #F7E1D7;
+  padding: 0px;
+}
+
+#profile-me-text {
+  padding: 5px 5px 22px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .social-media {
+    width: 515px;
+  }
+}
+
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .social-media {
+    width: 225px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .profile-me {
+    margin: 15px 70px;
+  }
+
+  .social-media {
+    width: 225px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+}
